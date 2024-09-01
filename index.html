@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Meter</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Nutrition Meter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="container">
+        <input 
+            type="text" 
+            id="foodInput" 
+            placeholder="Enter food item"
+        />
+        <button id="submitButton">Get Nutrition Info</button>
+        <div id="nutritionInfo" class="hidden">
+            <h2>Nutritional Information:</h2>
+            <p>Calories: <span id="calories"></span></p>
+            <p>Protein: <span id="protein"></span>g</p>
+            <p>Carbs: <span id="carbs"></span>g</p>
+            <p>Fat: <span id="fat"></span>g</p>
+        </div>
+    </div>
+    <footer>
+        <p id="rights"><br><br><br><br><br><br><br>
+            For any other informations plz contact me srijolet@gmail.com
+            <br>All rights reserved
+            
+            <br>&reg;Nutritionix api,India
+            <br>Kolkata,West Bengal,India-700111
+            
+            <br>&copy;Srijon Karmakar
+        </p>
+        
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
